@@ -25,4 +25,4 @@ if __name__ == '__main__':
           result = list(tqdm(p.imap(cal_function, range(len(docs))), total=len(docs)))
             
     print("saving..")
-    pd.DataFrame(result, columns=['daltix_id_1', 'daltix_id_2', 'similarity']).to_csv("tfidf_df.csv", index=False)
+    pd.DataFrame(result, columns=['daltix_id_1', 'daltix_id_2', 'similarity']).to_csv("tfidf_df_ngrams.csv", index=False)
