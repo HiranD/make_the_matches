@@ -32,11 +32,11 @@ This repo contains several Jupyter Notebooks and data sets saved at checkpoints 
 
 Some parts of the codes take hours to process. It can be solved if I have used Dask Dataframes. Havent had enough time to do that.
 
-### Max f1 score achived - 0.60056
+### Max f1 score achieved - 0.60056
 
 ## Instructions to produce same results
 
 * Clone the repo and copy the original data folder to it.
-* Firat run preprocess_data.ipynb and produce dataset_cleaned.csv.
+* First run preprocess_data.ipynb and produce dataset_cleaned.csv.
 * Then run the tf_idf.py and produce tfidf_df_ngrams.csv (This process take time, therefor i have commited the tfidf_df_ngrams.csv).
 * Finally run validate_results.ipynb and see the f1 Score.
