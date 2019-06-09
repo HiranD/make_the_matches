@@ -4,6 +4,7 @@
 
 * Gensim doc2vec
 * sk-learn tf-idf
+* Gensim docsim
 * Spacy Document Similarity
 
 ### Gensim doc2vec
@@ -13,6 +14,10 @@ Results were not good so moved to tf-idf.. But I think we should be able to tune
 ### sk-learn tf-idf 
 
 Got a f1 score of 0.60 using the given validation data.
+
+### Gensim docsim 
+
+Havent had enough time to continue.
 
 ### Spacy Document Similarity (using nl_core_news_sm model)
 
