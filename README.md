@@ -17,11 +17,11 @@ Got a f1 score of 0.60 using the given validation data.
 
 ### Gensim docsim 
 
-Havent had enough time to continue.
+Seems like a fast solution. But the f1 score of 0.60 seems to be far from achiving using this method.
 
 ### Spacy Document Similarity (using nl_core_news_sm model)
 
-Just done some experiments. Seems like tf-idf gave slightly better results. Havent had enough time to continue.
+Just done some experiments. Seems like tf-idf gave slightly better results.
 
 ## Code
 
